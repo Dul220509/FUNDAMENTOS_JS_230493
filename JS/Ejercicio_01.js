@@ -9,15 +9,15 @@
 
 // a) Var
 
-var miNombre="Dulce Y."
+var miNombre="Dulce Yadira ."
 var misApellidos;
 var miEdad =32;
 
 
-// ELobjeto de console nos per,ite emboar daros a ña terminal 
-//y poder visualizar el valor de una variablle o resultado de una funcion o metodo
+// ELobjeto de console nos permite enviar datos a la terminal 
+//y poder visualizar el valor de una variable o resultado de una función o metodo
 
-console.warn("---DEclaracion de variable usando VAR");
+console.warn("---Declaración de variable usando VAR");
 console.log("intentando leer las variables", miNombre,misApellidos);
 
 
@@ -31,15 +31,16 @@ console.log("Ya que ambas fueron inicializadas vuelvo a intentar leerlas ",miNom
 
 // b) const
 
-console.warn("-----Declaracion de variable del tipo constante usando: CONST-------")
+console.warn("-----Declaración de variable del tipo constante usando: CONST-------")
 const miUniversidad ="UT Xicotepec";
 const miMatricula =230493;
-console.log("hola,", miNombre,"",misApellidos,"Se que estudias actualmete en:",
+console.log("Hola,", miNombre,"",misApellidos,"Se que estudias actualmete en:",
      miUniversidad, "asignaron la matricula:", miMatricula, "y tienes una edad de:", miEdad,"años.");
 
 //para saber cual es el tipo de dato que tuiene una variable o constante podemos utilizar la funcio typeOf()
 
 console.log("analizando los datos puedo decir que:")
+
 console.log("miNombre es de tipo:", typeof(miNombre))
 console.log("misApellidos son de tipo:", typeof(misApellidos))
 console.log("miUniversidad es de tipo:", typeof(miUniversidad))
